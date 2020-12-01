@@ -4,7 +4,7 @@ from greenlet import greenlet
 def test1():
     print(12)
     gr2.switch()
-    print(34)
+    print('第一个修改')
     gr2.switch()
 
 
