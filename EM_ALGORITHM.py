@@ -3,7 +3,7 @@ import numpy as np
 def E_step():
     pass
 def M_step():
-    pass
+    print(1,2,3,4,5)
 def main(iters):
     i=0
     dif=0.01
